@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    display: flex;
+}
+.container-left{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f0f0f2;
+    transition: ease-in-out 1s;
+}
+.container-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #f9429e; 
+    transition: ease-in-out 1s;
+}
+.container-left-header{
+    height: 30%;
+    text-align: center;
+    padding-top: 3rem;
+}
+.icon{
+    margin: 1.5rem 0.7rem 0rem 0.7rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container-left-main{
+    text-align: center;
+    font-size: 20px;
+    margin: 1rem;
+}
+.container-left-main-input{
+    width: 99%;
+    height: 50px;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    border: none;
+    background-color: #dcdcdc;
+}
+.password-forgot{
+    color: #000;
+    display: inline-block;
+    margin-top: 1rem;
+}
+.bouton-connecter{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 1rem;
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #f9429e;
+    cursor: pointer;
+}
+.container-right-title{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.container-right-paragraph{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+.button-enter{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 1rem;
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: #f9429e;
+    cursor: pointer;
+}
+.gauche{
+    transform: translateX(100%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.droite{
+    transform: translateX(-100%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
